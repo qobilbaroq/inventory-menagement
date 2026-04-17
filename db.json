@@ -1,54 +1,54 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "laptop",
-            "category": "elektronik",
-            "stock": 15,
-            "unit": "unit",
-            "price": 7000000,
-            "createdAt": "2026-4-17"
-        },
-        {
-            "id": 2,
-            "name": "monitor",
-            "category": "elektronik",
-            "stock": 15,
-            "unit": "unit",
-            "price": 1500000,
-            "createdAt": "2026-4-17"
-        },
-        {
-            "id": 3,
-            "name": "mouse",
-            "category": "elektronik",
-            "stock": 15,
-            "unit": "unit",
-            "price": 150000,
-            "createdAt": "2026-4-17"
-        },
-                {
-            "id": 4,
-            "name": "mouse pad",
-            "category": "aksesoris",
-            "stock": 15,
-            "unit": "unit",
-            "price": 30000,
-            "createdAt": "2026-4-17"
-        },
-                {
-            "id": 5,
-            "name": "meja",
-            "category": "furnitur",
-            "stock": 15,
-            "unit": "unit",
-            "price": 4200000,
-            "createdAt": "2026-4-17"
-        }
-    ],
-    "categories": [
-        { "id": 1 , "name": "elektronik "},
-        { "id": 2 , "name": "aksesoris"},
-        { "id": 3 , "name": "furnitur"}
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 7000000,
+      "createdAt": "2026-4-17"
+    },
+    {
+      "id": 2,
+      "name": "monitor",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 1500000,
+      "createdAt": "2026-4-17"
+    },
+    {
+      "id": 3,
+      "name": "mouse",
+      "category": "elektronik",
+      "stock": 15,
+      "unit": "unit",
+      "price": 150000,
+      "createdAt": "2026-4-17"
+    },
+    {
+      "id": 4,
+      "name": "mouse pad",
+      "category": "aksesoris",
+      "stock": 15,
+      "unit": "unit",
+      "price": 30000,
+      "createdAt": "2026-4-17"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "elektronik "
+    },
+    {
+      "id": 2,
+      "name": "aksesoris"
+    },
+    {
+      "id": 3,
+      "name": "furnitur"
+    }
+  ]
 }
