@@ -17,6 +17,7 @@ export const Product = () => {
 
     useEffect(() => {
         fetchProducts()
+        fetchCategories()
     }, [])
 
     const fetchProducts = async () => {
@@ -112,7 +113,19 @@ export const Product = () => {
                 ))}
             </div>
         </div>
-        
+        <div className='flex justify-between'>
+                {categories.map((category: any) => (
+                    <div 
+                    className='flex py-5 px-4 w-64 h-52 border border-black/40 rounded-2xl'
+                    key={category.id}>
+                        <p className='text-xl font-semibold'>{category.name}</p>
+                        <button 
+                            className='border border-red-400 rounded-2xl p-2 hover:bg-red-500 hover:text-white'
+                            onClick={() => handleDelete(category.id)}
+                            >hapus</button>
+                    </div>
+                ))}
+            </div>
     </div>
   )
 }
